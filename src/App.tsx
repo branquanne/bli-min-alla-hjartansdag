@@ -29,7 +29,6 @@ export default function Page() {
       "Estoy muerto",
       "Nej :(",
     ];
-
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
 
